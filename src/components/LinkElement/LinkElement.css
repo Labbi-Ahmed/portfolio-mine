@@ -1,0 +1,22 @@
+.link__element {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* background-color: lightgray; */
+    margin: 0 5px;
+    border-radius: 8px;
+    border:1px solid transparent;
+    cursor: pointer;
+    transition: .3s ease-out;
+    box-sizing: border-box;
+
+}
+
+.link__element:hover{
+    /* background-color: aliceblue; */
+    border: 1px solid black;
+}
+
+.active{
+    background-color: antiquewhite;
+}

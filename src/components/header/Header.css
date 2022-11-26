@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    height: 65px;
+    background-color: lightblue;
+    box-shadow: 0 1px 2px #55555576;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+.nav > a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size:24px;
+    padding: 8px;
+    transition: 0.5s ease-in-out;
+    background: transparent;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.37);
+    border-radius: 8px;
+    /* -webkit-box-reflect: below 0 linear-gradient(transparent, rgb(232, 17, 17)); */
+
+}
+.nav > a:hover{
+    /* transform: rotatex(360deg); */
+    background-color: #bbaaff;
+}
+
+.nav__menu {
+    display: flex;
+}
